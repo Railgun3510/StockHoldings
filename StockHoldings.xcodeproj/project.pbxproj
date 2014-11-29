@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		660C4AF61A2A01E300F3B5DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660C4AF51A2A01E300F3B5DC /* main.m */; };
+		660C4AFE1A2A020900F3B5DC /* FHPProfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 660C4AFD1A2A020900F3B5DC /* FHPProfolio.m */; };
+		660C4B011A2A02B900F3B5DC /* FHPStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 660C4B001A2A02B900F3B5DC /* FHPStockHolding.m */; };
+		660C4B041A2A0AF400F3B5DC /* FHPForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 660C4B031A2A0AF400F3B5DC /* FHPForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		660C4AF21A2A01E300F3B5DC /* StockHoldings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StockHoldings; sourceTree = BUILT_PRODUCTS_DIR; };
 		660C4AF51A2A01E300F3B5DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660C4AFC1A2A020900F3B5DC /* FHPProfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPProfolio.h; sourceTree = "<group>"; };
+		660C4AFD1A2A020900F3B5DC /* FHPProfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPProfolio.m; sourceTree = "<group>"; };
+		660C4AFF1A2A02B900F3B5DC /* FHPStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPStockHolding.h; sourceTree = "<group>"; };
+		660C4B001A2A02B900F3B5DC /* FHPStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPStockHolding.m; sourceTree = "<group>"; };
+		660C4B021A2A0AF400F3B5DC /* FHPForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPForeignStockHolding.h; sourceTree = "<group>"; };
+		660C4B031A2A0AF400F3B5DC /* FHPForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				660C4AF51A2A01E300F3B5DC /* main.m */,
+				660C4AFC1A2A020900F3B5DC /* FHPProfolio.h */,
+				660C4AFD1A2A020900F3B5DC /* FHPProfolio.m */,
+				660C4AFF1A2A02B900F3B5DC /* FHPStockHolding.h */,
+				660C4B001A2A02B900F3B5DC /* FHPStockHolding.m */,
+				660C4B021A2A0AF400F3B5DC /* FHPForeignStockHolding.h */,
+				660C4B031A2A0AF400F3B5DC /* FHPForeignStockHolding.m */,
 			);
 			path = StockHoldings;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660C4B041A2A0AF400F3B5DC /* FHPForeignStockHolding.m in Sources */,
+				660C4B011A2A02B900F3B5DC /* FHPStockHolding.m in Sources */,
+				660C4AFE1A2A020900F3B5DC /* FHPProfolio.m in Sources */,
 				660C4AF61A2A01E300F3B5DC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
